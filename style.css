@@ -1,10 +1,26 @@
-body{
-    background-color: aliceblue;
-    font-family: 'Poppins', sans-serif;
+body {
+  background-color: aliceblue;
+  font-family: "Poppins", sans-serif;
 }
-h1{
-    font-size:3em;
+h1 {
+  font-size: 4em;
 }
-.sadat-color{
-    color: #f3dc0c;
+h3 {
+  font-size: 2em;
+}
+.blue-color {
+  color: #0044ff;
+}
+.sadat-image {
+  border-radius: 50% 0% 0% 50%;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.header-image {
+}
+.header-text-container {
+  width: 45%;
 }

@@ -1,26 +1,94 @@
 body {
-  background-color: aliceblue;
+  background-color: #ffffff;
   font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
 }
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 50px;
+  background-image: url("image/top-banner.png");
+  background-repeat: no-repeat;
+  margin-bottom: 150px;
+}
+
 h1 {
   font-size: 4em;
 }
 h3 {
   font-size: 2em;
 }
-.blue-color {
+.blue-sadat {
   color: #0044ff;
+}
+.blue-sadat:hover {
+  animation-name: wide-and-shut;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+@keyframes wide-and-shut {
+  0% {
+    font-size: 1em;
+  }
+  50% {
+    font-size: 1.25em;
+  }
+  100% {
+    font-size: 1em;
+  }
 }
 .sadat-image {
   border-radius: 50% 0% 0% 50%;
 }
-header {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-}
+
 .header-image {
 }
 .header-text-container {
   width: 45%;
+}
+.intro {
+  padding-bottom: 15px;
+}
+.hire {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  background: rgb(0, 89, 255);
+  background: linear-gradient(
+    45deg,
+    rgba(0, 68, 255, 1) 0%,
+    rgba(0, 162, 255, 1) 100%
+  );
+  padding: 15px;
+  border-radius: 5px;
+}
+.hire:hover {
+  color: maroon;
+  padding: 18px;
+  font-weight: bold;
+  background: rgb(0, 89, 255);
+  background: linear-gradient(
+    45deg,
+    rgba(0, 68, 255, 0.75) 0%,
+    rgba(0, 162, 255, 0.75) 100%
+  );
+}
+.second {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding-left: 50px;
+  background-image: url("image/top-banner.png");
+  background-repeat: no-repeat;
+  margin-bottom: 150px;
+}
+.second-image {
+  border-radius: 50%;
+}
+.second-text-container {
+  width: 45%;
+}
+.more-info {
+  padding-bottom: 15px;
 }
